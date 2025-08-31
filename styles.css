@@ -10,7 +10,7 @@ body {
   color: #333;
 }
 body {
-  background: url('img src =images/no 1.jpg') no-repeat center center fixed;
+  background: url('img src = no 1.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #333;
 }
@@ -25,7 +25,7 @@ body {
 
 .logo {
     text-indent: -999999px;
-    background:url('images/favicon.jpg') no-repeat center center/cover;
+    background:url('favicon.jpg') no-repeat center center/cover;
     width: 190px;
     height: 190px;  
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .hero {
-  background: url('images/no\ 1.jpg') no-repeat center center/cover;
+  background: url('no 1.jpg') no-repeat center center/cover;
   height: 90vh;
   display: flex;
   align-items: center;
@@ -98,3 +98,4 @@ body {
     font-size: 1rem;
   }
 }
+
