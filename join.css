@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('images/by\ faith\ Abraham.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+/* join Section */
+.join-section {
+  max-width: 800px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  animation: fadeInUp 1.5s ease-in;
+}
+
+.join-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: gold;
+  text-align: center;
+}
+
+.join-section p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+section#contact {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: 100px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+section#contact h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: gold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px gold;
+}
+
+button {
+  background-color: #e63946;
+  color: white;
+  padding: 12px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #f1a208;
+}
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  section#contact {
+    margin: 50px 10px;
+    padding: 40px 15px;
+  }
+
+  section#contact h2 {
+    font-size: 1.5em;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 1em;
+  }
+}
+
+
