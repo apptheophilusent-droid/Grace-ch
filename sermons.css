@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: url('images/lion\ of\ judah.jpg') no-repeat center center/cover;
+  background: url('lion of judah.jpg') no-repeat center center/cover;
   color: #fff;
   min-height: 100vh;
 }
@@ -16,7 +16,7 @@ body {
 
 .logo {
     text-indent: -999999px;
-    background:url('images/favicon.jpg') no-repeat center center/cover;
+    background:url('favicon.jpg') no-repeat center center/cover;
     width: 190px;
     height: 190px;  
 }
@@ -150,4 +150,5 @@ footer {
   .hero p {
     font-size: 1rem;
   }
+
 }
